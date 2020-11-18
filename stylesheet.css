@@ -1,0 +1,164 @@
+*{
+  box-sizing:borderbox;
+}
+
+.clear{
+  clear:left;
+}
+
+.container{
+  max-width:1170px;
+  width:100%;
+  padding:0px 20px;
+  margin: 0 auto;
+}
+
+header{
+  height:90px;
+  width:100%;
+  background-color:rgb(155,240,113,0.6);/*ここは灰色の半透明、フォントは緑に黒の枠線で、写真メインで行く*/
+  position:fixed;
+  top:0px;
+  z-index:10;
+}
+
+.header-left{
+  float:left;
+}
+
+.logo{
+  width:250px;
+  margin:5px;
+  font-family: Times New Roman;
+  font-weight: normal;
+  font-size:50px;
+}
+
+.header-right{
+  float:right;
+}
+
+.btn{
+  line-height:110px;
+  padding:0px 50px;
+  color:white;
+  display:inline-block;
+  font-family: Times New Roman;
+  font-style: italic;
+  font-size:25px;
+}
+
+.top-wrapper{
+  max-width:1170px;
+  margin: 0 auto;
+  color:white;
+}
+
+.top-wrapper img{
+
+}
+
+.name{
+  font-family:SignPainter;
+  font-style:HouseScript;
+  font-size:100px;
+  float:right;
+  margin-top:100px;
+  margin-right:100px;
+  z-index:2;
+}
+
+.profile-wrapper{
+  margin-left:50px
+
+}
+
+.heading{
+  font-family:SignPainter;
+  font-style:HouseScript;
+  font-size:50px;
+  color:black;
+  float: left;
+}
+
+.pro-head{
+  border-bottom:5px solid #9bf071;
+}
+.heading h1{
+  margin:0px 20px;
+}
+
+.pro-txt{
+  font-family:凸版文久見出し明朝;
+  font-size:25px;
+  padding:200px 100px;
+  width:100%;
+}
+
+.service-wrapper{
+  height:800px;
+  text-align:center;
+}
+.ser-head{
+  border-bottom:5px solid #e9eb45;
+}
+
+.contents{
+  float:left;
+  padding-top:50px;
+  display:flex;
+  margin-bottom:100px;
+}
+
+.content h2{
+  font-family:SignPainter;
+  font-style:HouseScript;
+  font-size:50px;
+  color:black;
+}
+
+.ser-img{
+  width:30%;
+}
+
+.txt-content{
+  width:100%;
+  display:inline-block;
+  margin-top:20px;
+  font-family:ヒラギノ明朝 ProN;
+  font-size:18px;
+}
+
+footer{
+  height:90px;
+  width:100%;
+  background-color:rgb(155,240,113);
+}
+
+
+.logo{
+  width:250px;
+  margin:5px;
+  font-family: Times New Roman;
+  font-weight: normal;
+  font-size:50px;
+  line-height:50px;
+}
+
+.footer-left{
+  float:left;
+}
+
+.footer-right{
+  float:right;
+}
+
+.footer-btn{
+  line-height:50px;
+  padding:0px 50px;
+  color:white;
+  display:inline-block;
+  font-family: Times New Roman;
+  font-style: italic;
+  font-size:25px;
+}
